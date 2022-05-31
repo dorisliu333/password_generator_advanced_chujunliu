@@ -28,14 +28,15 @@ h1 {
 .display-box {
   display: block;
   margin: 5%;
+  padding: 3%;
   border: 2px solid rgb(147, 99, 41);
   border-style: dashed;
   border-radius: 3px;
-  height: 50px;
+  height: 90px;
   text-align: center;
-  line-height: 50px;
   font-weight: bold;
   word-break: break-all;
+  font-size: 1.1rem;
 }
 
 .passwordInfo{
