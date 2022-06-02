@@ -53,7 +53,7 @@ function generatePassword(passwordLength, includeLowercase, includeUppercase, in
     var resultStr = result.join('');
     var passwordRandom = '';
 
-    for(var i=0; i<=passwordLength; i++){
+    for(var i=0; i<passwordLength; i++){
         var randomNum = Math.floor(Math.random()*resultStr.length);
         passwordRandom += resultStr.substring(randomNum, randomNum+1)
     }
